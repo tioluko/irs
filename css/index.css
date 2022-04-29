@@ -46,12 +46,11 @@ body {
     overflow: hidden;
 }
 .pad2{
-    border: 3px solid khaki; 
+    padding: 3px solid khaki; 
     border-radius: 100px;
     color:#2c1621;
     background-color: khaki;
     text-align: center;
-    position: fixed;
     margin:auto;
     max-width: fit-content;
     overflow: hidden;
