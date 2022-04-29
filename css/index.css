@@ -22,45 +22,12 @@ body {
     display: table-cell;
     /* vertical-align: middle;*/
 }
-center
-{
-	text-align: center;
-}
-btn {
-    text-rendering: auto;
-    color:#2c1621;
-    letter-spacing: normal;
-    word-spacing: normal;
-    text-transform: none;
-    text-indent: 1px;
-    display: inline-block;
-    text-align: center;
-    background-color: khaki;
-    box-sizing: border-box;
-    font-family:'Gill Sans';
-    margin: 0em;
-    padding: 12px 28px;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-}
-btn:hover {
-    background-color: #2c1621;
-    color:khaki;
-}
-.hidden{
-    display:none;
-}
-.pad1{
-    border: 3px solid khaki; 
-    background-color: #2c1621;
-    margin:auto; 
-    max-width: fit-content;
-}
 
-.pad2{
-    border: 3px solid khaki; 
-    margin:auto; 
-    max-width: fit-content;  
+.hidden{
+    display: none;
+    text-align: left; 
+    flex-direction: column; 
+    align-items: center; 
 }
 .bgimage{ 
     width:800px; height:194px;
@@ -68,4 +35,37 @@ btn:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.pad1{
+    border: 1px solid khaki; 
+    border-radius: 25px;
+    background-color: #2c1621;
+    text-align: center;
+    margin:auto; 
+    max-width: fit-content;
+    overflow: hidden;
+}
+.pad2{
+    border: 3px solid khaki; 
+    border-radius: 100px;
+    color:#2c1621;
+    background-color: khaki;
+    text-align: center;
+    position: fixed;
+    margin:auto;
+    max-width: fit-content;
+    overflow: hidden;
+    display: none;
+}
+.btn {
+    color:#2c1621;
+    display: inline-block;
+    background-color: khaki;
+    box-sizing: border-box;
+    padding: 12px 28px;
+    transition-duration: 0.5s;
+}
+.btn:hover {
+    background-color: #2c1621;
+    color:khaki;
 }
